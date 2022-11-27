@@ -13,7 +13,7 @@ export const getAxiosInstanceJsonServer = () => {
 export const getAxiosInstanceAuth = () => {
 
     return Axios.create({
-        baseURL: "https://twitterapi.liara.run/api/",
+        baseURL: "https://twitterapi.iran.liara.run/api/",
         headers: {
             //API_KEY: "hggkjdffjkllhfdswdfhjlliutewsdfhllhy"
         }
@@ -23,7 +23,7 @@ export const getAxiosInstanceAuth = () => {
 export const getAxiosInstanceApi = () => {
 
     return Axios.create({
-        baseURL: "https://twitterapi.liara.run/api/",
+        baseURL: "https://twitterapi.iran.liara.run/api/",
         headers: {
             'x-auth-token' : localStorage.getItem('x-auth-token')
         }
